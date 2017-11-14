@@ -70,6 +70,7 @@ curl测试一千次：
 ab测试样例一：
 
     每组10个请求，总共100个请求。结果如图3-1，3-2。
+    
     					下图3-1
 					
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-1.png)
