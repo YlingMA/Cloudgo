@@ -1,5 +1,5 @@
 # Cloudgo
-##1.编程 web 服务程序 类似 cloudgo 应用。
+## 1.编程 web 服务程序 类似 cloudgo 应用。
 ###   要求有详细的注释
 ###   是否使用框架、选哪个框架自己决定请在 README.md 说明你决策的依据
 
@@ -17,7 +17,7 @@ func main() {
 }
 ```
 
-####Martini.Classic()里，创建了一个经典的martini对象。
+#### Martini.Classic()里，创建了一个经典的martini对象。
 ```javascript
 func Classic() *ClassicMartini { 
     r := NewRouter() 新建标准路由 
@@ -31,7 +31,7 @@ func Classic() *ClassicMartini {
 }
 ```
 
-####Run()
+#### Run()
 ```javascript
 func (m *Martini) Run() {
     port := os.Getenv("PORT")
@@ -43,7 +43,7 @@ func (m *Martini) Run() {
 }
 ```
 
-##2.使用 curl 测试，将测试结果写入 README.md
+## 2.使用 curl 测试，将测试结果写入 README.md
 
 简单的curl测试一：
 
@@ -60,7 +60,7 @@ curl测试一千次：
     可以看到，每一次都成功了并且花费时间不多
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图2-3.png)
 
-##3.使用 ab 测试，将测试结果写入 README.md。并解释重要参数。
+## 3.使用 ab 测试，将测试结果写入 README.md。并解释重要参数。
 ab测试样例一：
 
     每组10个请求，总共100个请求。结果如图3-1，3-2：
