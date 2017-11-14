@@ -48,7 +48,8 @@ func (m *Martini) Run() {
 简单的curl测试一：
 
     可以看到，输入命令行curl -v http:localhost:3000/hello/testusername后，收到了报文内容中有Hello testusername,在服务端可以看到 接收到来自127.0.0.1的请求和完成请求所需要的时间：275us
-    
+    					下图2-1
+					
     ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图2-1.png)
     
 curl测试一千次：
@@ -80,7 +81,7 @@ ab测试样例一：
     
 ab测试样例二：
 
-    每组10个请求，总共100个请求。结果如图3-3，3-4：
+    每组10个请求，总共100个请求。结果如图3-3，3-4.
     					下图3-3
 					
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-3.png)
