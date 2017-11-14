@@ -67,6 +67,7 @@ ab测试样例一：
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-1.png)
      
      图3-1
+     
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-2.png)
      
      图3-2
