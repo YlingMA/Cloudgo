@@ -49,7 +49,7 @@ func (m *Martini) Run() {
 
     可以看到，输入命令行curl -v http:localhost:3000/hello/testusername后，收到了报文内容中有Hello testusername,在服务端可以看到 接收到来自127.0.0.1的请求和完成请求所需要的时间：275us
     
-    图2-1
+    ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图2-1.png)
 curl测试一千次：
 
     通过图2-2的命令进行1000次测试（注意这里需要进入root模式）
