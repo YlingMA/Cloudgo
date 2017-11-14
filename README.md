@@ -69,8 +69,8 @@ curl测试一千次：
 ## 3.使用 ab 测试，将测试结果写入 README.md。并解释重要参数。
 ab测试样例一：
 
-    每组10个请求，总共100个请求。结果如图3-1，3-2：
-    					下图3-1
+    每组10个请求，总共100个请求。结果如图3-1，3-2。
+    					下图3-1
 					
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-1.png)
      
@@ -82,6 +82,7 @@ ab测试样例一：
 ab测试样例二：
 
     每组10个请求，总共100个请求。结果如图3-3，3-4.
+    
     					下图3-3
 					
      ![image](https://github.com/YlingMA/Cloudgo/raw/master/image/图3-3.png)
